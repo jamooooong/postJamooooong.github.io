@@ -1,9 +1,12 @@
 body {
-	background: linear-gradient(-45deg, #E71F66,#9D27B0);
+    
+    background: linear-gradient(-45deg, #E71F66,#9D27B0);
 	background-size: 300% 300%;
 	animation: gradient 10s ease infinite;
     display: grid;
     place-items: center;
+    width: 100%;
+    height: 100%;
     
 
 }
@@ -20,18 +23,30 @@ body {
 	}
 }
 
+div{
+    display: block;
+}
+
 
 .Rectangle-3 {
-    position: absolute;
+    /*
     margin-top: 50rem;
-    border-radius: 24px;
-    background-color: #000;
+    */
     width: 42rem;
     height: 20rem;
-
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 24px;
+    background-color: #000;
     box-shadow: 0 22px 70px 4px rgba(0,0,0,0.56);
     color:white;
 
+}
+
+.Card-1{
+    display: flex;
 }
 
 .myface{
